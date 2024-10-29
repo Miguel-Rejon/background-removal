@@ -25,7 +25,7 @@ async function removeImageBackground(imgSource) {
 async function main() {
   try {
     // Ruta a la imagen
-    const imgSource = "img/close-young-smiling-man-casual-260nw-1521512921.jpg";
+    const imgSource = "img/IMG_0436.jpg";
 
     // Removiendo el fondo
     const resultDataURL = await removeImageBackground(imgSource);
