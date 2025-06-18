@@ -35,7 +35,7 @@ async function main() {
       encoding: "base64",
     });
 
-    console.log("Background removed successfully.");
+    console.log("Background removed.");
   } catch (error) {
     console.error("Error:", error.message);
   }
